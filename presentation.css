@@ -1,0 +1,26 @@
+.bgwhite{
+    background-color: white;
+    border-radius: 10px;
+    padding-left: 8px;
+    width: 98%;
+    padding-top: 9px;
+}
+#back{
+    color: rgb(180, 117, 81) !important;
+    border-width: 1px !important;
+    border-color:rgb(209, 209, 219) !important;
+    width: 225px !important;
+    height: 55px !important;
+    font-size: 20px !important;
+}
+#back:hover{
+    color: rgb(230, 148, 94) !important;
+    background-color: rgb(243, 243, 243) !important;
+}
+#p{
+    color: darkslategrey !important;
+    width: 98% !important;
+    word-wrap: break-word;
+    width: 200px;
+    cursor: default;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Secret website</title>
+        <script src="mainscreen.js"></script>
+        <link rel="stylesheet" href="mainscreen.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    </head>
+    <body onload="text()" class="bg bg-primary">
+        <center>
+            <textarea class="form-control" id="textarea"></textarea>
+            <div id="f" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <button id="logout" class="btn btn-danger btn-block" onclick="logout()"><div class="glyphicon glyphicon-log-out"></div> Log out</button>
+            <br>
+            <button id="savebtn" class="btn btn-success btn-block" onclick="save()"><div class="glyphicon glyphicon-save"></div> Save</button>
+            <br>
+            <button id="presentbtn" class="btn btn-purple btn-block" onclick="present()"><div class="glyphicon glyphicon-align-justify"></div> Present</button>
+            <br>
+            <button id="readonlybtn" class="btn btn-info btn-block" onclick="readonly()"><div class="glyphicon glyphicon-book"></div> Read only</button>
+            <br>
+            <button id="editbtn" class="btn btn-warning btn-block" onclick="edit()" disabled><div class="glyphicon glyphicon-pencil"></div> Edit</button>
+            <br>
+        </center>    
+    </body>
+</html>

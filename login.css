@@ -1,0 +1,27 @@
+.bgwhite{
+    background-color: white !important;
+    border-radius: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 80%;
+}
+.form-control{
+    width: 75% !important;
+    font-weight: bold;
+}
+.alert-danger{
+    width: 15%;
+    cursor: default;
+}
+button{
+    width: 225px;
+    height: 55px !important;
+    font-size: 20px !important;
+    border-width: 1px !important;
+    border-color:rgb(209, 209, 219) !important;
+    color: rgb(40, 133, 125) !important;
+}
+button:hover{
+    color: rgb(72, 171, 180) !important;
+    background-color: rgb(243, 243, 243);
+}

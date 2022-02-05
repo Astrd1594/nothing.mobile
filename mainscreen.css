@@ -1,0 +1,110 @@
+.arial{
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+body{
+    transition: all 0.2s ease-in-out !important;
+}
+#f{
+    margin-top: 10px;
+}
+button{
+    width: 99% !important;
+    height: 55px !important;
+    font-size: 20px !important;
+    border-width: 1px !important;
+    border-color:rgb(209, 209, 219) !important;
+    background-color: rgb(235, 235, 235) !important;
+}
+#savebtn:hover{
+    color: rgb(69, 187, 138) !important;
+    background-color: rgb(246, 246, 246) !important;
+}
+#presentbtn:hover{
+    color: rgb(224, 116, 192) !important;
+    background-color: rgb(246, 246, 246) !important;
+}
+#editbtn:hover{
+    color: rgb(230, 176, 91) !important;
+    background-color: rgb(246, 246, 246) !important;
+}
+#readonlybtn:hover{
+    color: rgb(102, 165, 216) !important;
+    background-color: rgb(246, 246, 246) !important;
+}
+#savebtn{
+    color: rgb(29, 133, 90) !important;
+}
+#presentbtn{
+    color: rgb(160, 58, 117) !important;
+}
+#editbtn{
+    color: rgb(160, 121, 58) !important;
+}
+#readonlybtn{
+    color: rgb(70, 94, 138) !important;
+}
+.alert-warning{
+    width: 40%;
+}
+#logout{
+    color: rgb(180, 81, 81) !important;
+}
+#logout:hover{
+    color: rgb(230, 94, 94) !important;
+    background-color: rgb(246, 246, 246) !important;
+}
+textarea{
+    cursor: pointer !important;
+    border-radius: 5px;
+    padding: 7px;
+    padding-top: 5px;
+    color: darkslategrey !important;
+    width: 95% !important;
+    height: 450px !important;
+    margin-top: 15px !important;
+    height: 800px !important;
+    border-radius: 10px !important;
+    transition: all 0.2s ease-in-out !important;
+    border-width: 1px !important;
+}
+textarea:hover{
+    border-color: rgb(0, 0, 0);
+    box-shadow: none !important;
+    border-color: black !important;
+    border-width: 1px !important;
+}
+textarea:active{
+    border-color: rgb(0, 0, 0) !important;
+    box-shadow: none !important;
+    border-color: black !important;
+    border-width: 1px !important;
+}
+#alertg{
+    width: 20% !important;
+}
+.v{
+    color: rgb(12, 93, 104) !important;
+    width: 6% !important;
+}
+.v:hover{
+    color: rgb(46, 128, 143) !important;
+    background-color: rgb(246, 246, 246) !important;
+}
+.link{
+    margin-left: 4px;
+    margin-top: 3px;
+    color: rgb(35, 75, 134);
+    text-decoration: underline;
+}
+.link:hover{
+    color: rgb(17, 42, 80) !important;
+    cursor: pointer;
+}
+#settingsmodal{
+    color: darkslategrey !important;
+}
+.close{
+    margin-right: 20px;
+    width: 0px !important;
+    height: 0px !important;
+}
